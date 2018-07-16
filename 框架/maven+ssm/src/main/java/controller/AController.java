@@ -20,7 +20,7 @@ public class AController {
 	@RequestMapping(value = "/a")
 	@ResponseBody
 	public JSONObject showA() {
-		A a = aService.getAById("wwww");
+		A a = aService.getAById("aa");
 		JSONObject json = new JSONObject();
 		json.put("id", a.getId());
 		json.put("a", a.getA());

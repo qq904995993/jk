@@ -7,13 +7,12 @@ import dao.ADao;
 import model.A;
 
 @Service
-public class AService {
-	
+public class AService{
+		
 	@Autowired
 	private ADao aDao;
-
+	
 	public A getAById(String id) {
 		return aDao.getAById(id);
 	}
-	
 }

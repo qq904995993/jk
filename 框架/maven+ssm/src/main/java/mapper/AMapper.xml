@@ -7,8 +7,8 @@
 		<id property="id" column="id" />
 		<result  property="a" column="a" />
 	</resultMap>
-
- 	<select id="getAById" resultType="A">
+ 	
+ 	<select id="getAById" resultMap="a">
   		SELECT * FROM a WHERE id = #{id}
  	</select>
 
