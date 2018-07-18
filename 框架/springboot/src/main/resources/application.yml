@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@10.88.1.18:1521:orcl
+    username: nfrc
+    password: nfrc
+    
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml
+  type-aliases-package: model
