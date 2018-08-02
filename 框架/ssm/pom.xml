@@ -45,6 +45,11 @@
 	  		<artifactId>spring-tx</artifactId>
 	  		<version>${spring.version}</version>
 	 	</dependency>
+	 	<dependency>
+	  		<groupId>org.springframework</groupId>
+	  		<artifactId>spring-context-support</artifactId>
+	  		<version>4.3.8.RELEASE</version>
+	 	</dependency>
 	 
 	 	<!-- spring 面向切面AOP相关包 -->
  		<dependency>
@@ -64,13 +69,6 @@
 	  		<artifactId>mybatis</artifactId>
 	  		<version>3.3.0</version>
 	 	</dependency>
- 
-	 	<!-- Oracle相关包 -->
-	 	<dependency>   
-        	<groupId>com.oracle</groupId>    
-        	<artifactId>ojdbc14</artifactId>    
-        	<version>10.2.0.4.0</version>
-    	</dependency>
 	 	
 		<!-- druid 数据库连接池 -->
 		<dependency>
@@ -117,8 +115,20 @@
             <groupId>commons-codec</groupId>
             <artifactId>commons-codec</artifactId>
             <version>1.9</version>
-        </dependency>
-  	
+        </dependency> 
+        
+        <!--ehcache 相关包 -->
+		<dependency>
+		    <groupId>net.sf.ehcache</groupId>
+		        <artifactId>ehcache</artifactId>
+		    <version>2.7.5</version>
+		</dependency>
+		<dependency>
+		    <groupId>com.googlecode.ehcache-spring-annotations</groupId>
+		    <artifactId>ehcache-spring-annotations</artifactId>
+		    <version>1.2.0</version>
+		</dependency>
+  		
     	<dependency>
 	      	<groupId>junit</groupId>
 	      	<artifactId>junit</artifactId>
