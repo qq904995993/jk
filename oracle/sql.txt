@@ -1,0 +1,13 @@
+-- 数据回滚
+alter table 表名 enable row movement;
+flashback table 表名 to timestamp to_timestamp('2011-03-04 05:00:00','yyyy-mm-dd HH24:MI:SS');
+
+
+-- 链接占用
+select * from (select machine, count(*) c from v$session group by machine) order by c desc
+
+
+-- 查询排重
+select code from 
+(select c.code,c.name,c.locate,c.degree_level, row_number() over(partition by c.name,c.locate,c.degree_level order by c.code desc) rnum from nfrc.dic_college c) cc
+where cc.rnum = 1
