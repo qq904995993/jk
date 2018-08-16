@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/forezp/SpringcloudConfig/
+          uri: https://github.com/qq904995993/jk/tree/master/%E6%A1%86%E6%9E%B6/springcloud/config/
           searchPaths: respo
           username: 
           password: 
