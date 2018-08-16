@@ -5,8 +5,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/qq904995993/jk/tree/master/%E6%A1%86%E6%9E%B6/springcloud/config/
-          searchPaths: respo
+          uri: https://github.com/qq904995993/jk/tree/master/framework/springcloud/config/
+          searchPaths: config
           username: 
           password: 
       label: master
