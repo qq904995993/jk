@@ -15,6 +15,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RefreshScope
 public class ClientApplication {
+	
+	/**
+     * http://localhost:8881/actuator/bus-refresh
+     */
 
 	public static void main(String[] args) {
 		SpringApplication.run(ClientApplication.class, args);
@@ -26,4 +30,5 @@ public class ClientApplication {
 	 public String hi(){
 	     return foo;
 	 }
+
 }

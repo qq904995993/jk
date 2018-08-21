@@ -11,8 +11,7 @@ spring:
     bus:
       enabled: true
       trace:
-        enabled: true
-      
+        enabled: true 
   rabbitmq: 
     host: localhost
     port: 5672
