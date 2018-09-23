@@ -1,0 +1,20 @@
+eureka      注册与发现：可配置多个共享
+
+restTemplate    服务调用
+ribbon	负载均衡
+hystrix      断路器
+
+feign        集成ribbon、断路器、服务调用
+
+zuul         网关：路由及转发、带负载均衡
+
+config      配置
+bus          消息总线，可通过rabbitMQ实现，动态刷新配置信息
+
+sleuth      服务链路追踪：监控服务间调用情况 
+
+ hystrix dashboard   断路器监控
+
+hystrix turbine     断路器监控聚合
+
+

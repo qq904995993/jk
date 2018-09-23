@@ -1,10 +1,27 @@
 spring:
   datasource:
     driver-class-name: oracle.jdbc.driver.OracleDriver
-    url: jdbc:oracle:thin:@10.88.1.18:1521:orcl
-    username: nfrc
-    password: nfrc
+    url: jdbc:oracle:thin:@127.0.0.1:1521:orcl
+    username: wzq
+    password: 6558678
+  cache:
+    type: REDIS
+  redis: 
+    host: 127.0.0.1
+    port: 6379
+    timeout: 1000
+    database: 0
+    jedis: 
+      pool: 
+        max-idle: 100
+        min-idle: 0
+        max-active: 1000
+        max-wait: -1
     
 mybatis:
   mapper-locations: classpath*:mapper/*.xml
   type-aliases-package: model
+  
+
+  
+
