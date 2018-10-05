@@ -16,6 +16,9 @@ public class User1Service implements InitializingBean, ApplicationListener<Conte
 	@Autowired
 	private UserDao userDao;
 	
+	@Autowired
+	private QuartzPrint quartzPrint;
+	
 	/**
 	 * @PostContruct注解的方法，在Bean初始化过程中调用
 	 */
@@ -37,7 +40,8 @@ public class User1Service implements InitializingBean, ApplicationListener<Conte
 	 */
 	@Override
 	public void onApplicationEvent(ContextRefreshedEvent arg0) {
-		userDao.updatePassword("1", "3");
+		//userDao.updatePassword("1", "3");
+		quartzPrint.run();
 	}
 	
 }
