@@ -7,23 +7,23 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.alibaba.fastjson.JSONObject;
 
-import model.A;
-import service.AService;
+import model.User;
+import service.UserService;
 
 @Controller
 @RequestMapping(value = "/")
-public class AController {
+public class UserController {
 	
 	@Autowired
-	private AService aService;
+	private UserService userService;
 	
 	@RequestMapping(value = "/a")
 	@ResponseBody
 	public JSONObject showA() {
-		A a = aService.getAById("aa");
+		User user = userService.getUserByUserNo("1");
 		JSONObject json = new JSONObject();
-		json.put("id", a.getId());
-		json.put("a", a.getA());
+		json.put("username", user.getUsername());
+		json.put("password", user.getPassword());
 		return json;
 	}
 	

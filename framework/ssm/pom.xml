@@ -3,7 +3,6 @@
   	<modelVersion>4.0.0</modelVersion>
   	<groupId>jk.maven</groupId>
   	<artifactId>ssm</artifactId>
-  	<packaging>war</packaging>
   	<version>0.0.1-SNAPSHOT</version>
   	<name>ssm Maven Webapp</name>
   	<url>http://maven.apache.org</url>
@@ -127,6 +126,12 @@
 		    <groupId>com.googlecode.ehcache-spring-annotations</groupId>
 		    <artifactId>ehcache-spring-annotations</artifactId>
 		    <version>1.2.0</version>
+		</dependency>
+		
+		<dependency>
+    		<groupId>mysql</groupId>
+    		<artifactId>mysql-connector-java</artifactId>
+    		<version>8.0.11</version>
 		</dependency>
   		
     	<dependency>

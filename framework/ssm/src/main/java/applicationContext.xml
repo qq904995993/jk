@@ -42,6 +42,8 @@
 		<property name="minEvictableIdleTimeMillis" value="300000" />
 		<property name="poolPreparedStatements" value="true" />
 		<property name="maxOpenPreparedStatements" value="30" />
+		
+		<property name="validationQuery" value="${jdbc.validationQuery}" />
 
 		<property name="filters" value="stat" />
 	</bean>
