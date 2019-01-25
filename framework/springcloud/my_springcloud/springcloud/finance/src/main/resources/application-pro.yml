@@ -1,0 +1,28 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: finance
+  thymeleaf:
+    cache: false
+  datasource:
+    url: jdbc:mysql://localhost:3306/jk_finance?serverTimezone=UTC
+    username: root
+    password: 6558678
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      connection-init-sql: select 1 from dual
+      connection-timeout: 30000
+      maximum-pool-size: 20
+      max-lifetime: 1800000
+      minimum-idle: 5
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8080/eureka, http://127.0.0.1:8079/eureka
+
+mybatis:
+  mapper-locations: classpath:jk/mapping/*.xml
+  type-aliases-package: jk.model.po

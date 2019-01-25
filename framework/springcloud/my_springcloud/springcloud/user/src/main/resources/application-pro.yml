@@ -1,0 +1,38 @@
+server:
+  port: 8081
+
+spring:
+  thymeleaf:
+    cache: false
+  datasource:
+    url: jdbc:mysql://localhost:3306/jk_user?serverTimezone=UTC
+    username: root
+    password: 6558678
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      connection-init-sql: select 1 from dual
+      connection-timeout: 30000
+      maximum-pool-size: 20
+      max-lifetime: 1800000
+      minimum-idle: 5
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  redis:
+    host: 127.0.0.1
+    database: 8
+    jedis:
+      pool:
+        max-active: 8
+        min-idle: 1
+        max-idle: 1
+        max-wait: -1
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8080/eureka, http://127.0.0.1:8079/eureka
+
+logging:
+  path: ../logs/user/

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="jk.mapper.FinanceLogMapper">
+  <resultMap id="BaseResultMap" type="jk.model.po.FinanceLog">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="finance_log_id" jdbcType="BIGINT" property="financeLogId" />
+    <result column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="type" jdbcType="VARCHAR" property="type" />
+    <result column="content" jdbcType="VARCHAR" property="content" />
+    <result column="balance" jdbcType="DECIMAL" property="balance" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+  </resultMap>
+</mapper>
