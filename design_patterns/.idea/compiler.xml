@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="abstract_factory_pattern" />
+        <module name="adapter_pattern" />
+        <module name="command_pattern" />
+        <module name="composite_pattern" />
+        <module name="decorator_pattern" />
+        <module name="facade_pattern" />
+        <module name="factory_method_pattern" />
+        <module name="iterator_pattern" />
+        <module name="observer_pattern" />
+        <module name="proxy_pattern" />
+        <module name="simple_factory_pattern" />
+        <module name="singleton_pattern" />
+        <module name="state_pattern" />
+        <module name="strategy_pattern" />
+        <module name="template_method_pattern" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

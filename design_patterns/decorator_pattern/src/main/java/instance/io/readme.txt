@@ -1,0 +1,2 @@
+io流FilterInputStream使用了装饰者模式，对InputStream流进行额外的操作。
+本例子集成FilterInputStream流，实现对流进行小写转换。
