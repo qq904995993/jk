@@ -2,10 +2,11 @@ import java.util.Arrays;
 import java.util.stream.Stream;
 
 /**
- *  使用lombda语法，运行效率大于等于java语法
- *  使用范围：函数式接口（只有一个方法的接口）实现
- *  基本语法: (parameters) -> expression  或  (parameters) ->{ statements; }
- *  Stream是lombda编程的核心接口,一个对象仅支持一次完成的遍历吗，因此最好每次都创建一个新的stream对象
+ * lombda语法
+ * 使用lombda语法，运行效率大于等于java语法
+ * 使用范围：函数式接口（只有一个方法的接口）实现
+ * 基本语法: (parameters) -> expression  或  (parameters) ->{ statements; }
+ * Stream是lombda编程的核心接口,一个对象仅支持一次完成的遍历吗，因此最好每次都创建一个新的stream对象
  */
 public class Lambda {
     public static void main(String[] args) {

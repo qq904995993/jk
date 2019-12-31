@@ -4,7 +4,8 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 /**
- * 反射：运行过程中获取指定类的信息
+ * 反射
+ * 运行过程中获取指定类的信息
  */
 public class Reflection {
 
