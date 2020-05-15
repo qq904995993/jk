@@ -9,6 +9,8 @@ import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 import java.util.Iterator;
 import java.util.Set;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 /**
  *  New IO，Non-block IO
@@ -156,9 +158,19 @@ class NIOClient extends NIO {
     }
 
     public static void main(String[] args) throws Exception {
-        NIOClient client = new NIOClient();
-        client.write("日您吗");
-        client.reactor();
+        ExecutorService pool = Executors.newFixedThreadPool(10);
+        for(int i = 0; i < 10; i ++) {
+            pool.execute(() -> {
+                try {
+                    NIOClient client = new NIOClient();
+                    client.write("日您吗");
+                    client.reactor();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            });
+
+        }
     }
 }
 
