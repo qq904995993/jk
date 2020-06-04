@@ -27,7 +27,36 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int reverse(int x) {
-
+        long l = 0;
+        while (x != 0) {
+            l = l * 10 + x % 10;
+            x /= 10;
+        }
+        return (l < Integer.MIN_VALUE || l > Integer.MAX_VALUE) ? 0 : (int) l;
     }
+
+    //mine
+//    public int reverse(int x) {
+//        if(x  == 0) {
+//            return 0;
+//        }
+//
+//        StringBuilder sb;
+//        if(x < 0) {
+//            String s = String.valueOf(x);
+//            sb = new StringBuilder().append(s.substring(1, s.length()));
+//        } else {
+//            sb = new StringBuilder().append(x);
+//        }
+//        sb.reverse();
+//        long l = Long.parseLong(sb.toString());
+//        l = x < 0 ? -l : l;
+//
+//        if(l < Integer.MIN_VALUE || l > Integer.MAX_VALUE) {
+//            return 0;
+//        }
+//
+//        return (int) l;
+//    }
 }
 //leetcode submit region end(Prohibit modification and deletion)
