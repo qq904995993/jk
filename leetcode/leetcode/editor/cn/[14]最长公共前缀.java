@@ -37,6 +37,7 @@ class Solution {
         return res;
     }
 
+    //mine
 //    public String longestCommonPrefix(String[] strs) {
 //        if(strs == null || strs.length < 1 || strs[0].length() == 0) {
 //            return "";

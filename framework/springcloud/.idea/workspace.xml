@@ -2,21 +2,98 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baf9c085-9d37-4f02-871c-f032c4b6e561" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../interview/java/JVM.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../interview/java/JVM.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interview/database/Basic.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../interview/database/Basic.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interview/java/Connection.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interview/java/IO.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../interview/java/IO.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interview/java/Network.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../interview/java/Network.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interview/java/Spring.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../interview/java/Spring.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../interview/java/Thread.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../interview/java/Thread.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../interview/java/java基础.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../interview/java/java基础.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java/src/main/java/network/io/NIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/src/main/java/network/io/NIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java/target/classes/META-INF/java.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java/target/classes/network/io/NIO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/target/classes/network/io/NIO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java/target/classes/network/io/NIOClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/target/classes/network/io/NIOClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java/target/classes/network/io/NIOServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/target/classes/network/io/NIOServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/annotation/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/annotation/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/annotation/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/annotation/bin/anontation/Autowired.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/annotation/bin/anontation/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/annotation/bin/anontation/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/annotation/src/anontation/Autowired.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/annotation/src/anontation/Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/annotation/src/anontation/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/src/main/java/BaseType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/src/main/java/Lambda.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/src/main/java/Reflection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/src/main/java/network/io/AIO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/src/main/java/network/io/BIO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/src/main/java/network/io/NIO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/src/main/java/network/netty/Netty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/src/main/java/network/protocol/TCP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/src/main/java/network/protocol/UDP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/src/main/java/thread/CyclicBarrier_CountDownLatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/src/main/java/thread/Lock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/src/main/java/thread/Synchronized.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/src/main/java/thread/ThreadPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/BaseType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/Lambda.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/Reflection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/network/io/AIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/network/io/AIOClient$ConnectCompleteHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/network/io/AIOClient$ReadCompleteHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/network/io/AIOClient$WriteCompleteHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/network/io/AIOClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/network/io/AIOServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/network/io/AIOServer$AcceptCompleteHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/network/io/AIOServer$ReadCompleteHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/network/io/AIOServer$WriteCompleteHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/network/io/AIOServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/network/io/BIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/network/io/NIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/network/io/NIOClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/network/io/NIOServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/network/netty/Client$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/network/netty/Client$EchoClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/network/netty/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/network/netty/Netty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/network/netty/Server$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/network/netty/Server$EchoServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/network/netty/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/network/protocol/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/network/protocol/Server$SocketThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/network/protocol/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/network/protocol/TCP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/network/protocol/UDP$Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/network/protocol/UDP$Server$SocketThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/network/protocol/UDP$Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/network/protocol/UDP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/thread/CyclicBarrier_CountDownLatch$CountDownLatchThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/thread/CyclicBarrier_CountDownLatch$CyclicBarrierThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/thread/CyclicBarrier_CountDownLatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/thread/Lock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/thread/Synchronized.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/target/classes/thread/ThreadPool.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my_springcloud/springcloud/user/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -40,15 +117,109 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="my_springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="my_springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="my_springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="my_springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="my_springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="my_springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="my_springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="my_springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="my_springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="my_springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/workspace/richinfo/Mail139_TerminalService/src/trunk/terminal-parent" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Errors" />
@@ -76,24 +247,21 @@
       <option name="presentableId" value="Default" />
       <updated>1587362766133</updated>
       <workItem from="1587362767912" duration="826000" />
+      <workItem from="1590650466896" duration="819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="826000" />
+    <option name="totallyTimeSpent" value="1645000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -101,16 +269,69 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="leetcode" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/my_springcloud/springcloud/eureka/src/main/resources/application-eureka2.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_springcloud/springcloud/eureka/src/main/resources/application-eureka1.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_springcloud/springcloud/eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_springcloud/springcloud/zuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_springcloud/springcloud/finance/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-188" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_springcloud/springcloud/finance/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_springcloud/springcloud/zuul/src/main/java/jk/ZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_springcloud/springcloud/zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_springcloud/springcloud/user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
