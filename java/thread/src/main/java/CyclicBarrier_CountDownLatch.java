@@ -13,9 +13,9 @@ public class CyclicBarrier_CountDownLatch {
 
         CountDownLatch countDownLatch = new CountDownLatch(3);
 
-        for (int i = 0; i < 4; i ++) {
-            //new Thread(new CyclicBarrierThread(cyclicBarrier), "CyclicBarrier" + i).start();
-            new Thread(new CountDownLatchThread(countDownLatch), "CountDownLatch" + i).start();
+        for (int i = 0; i < 3; i ++) {
+            new Thread(new CyclicBarrierThread(cyclicBarrier), "CyclicBarrier" + i).start();
+//            new Thread(new CountDownLatchThread(countDownLatch), "CountDownLatch" + i).start();
         }
 
     }
